@@ -56,6 +56,7 @@ ol, ul {
 
 body {
     font: 16px/22px 'lato', sans-serif;
+    color: #333;
 }
 
 h1 {
@@ -64,7 +65,8 @@ h1 {
 
 h2 {
     font: 20px/24px 'league_spartan', sans-serif;
-    margin-bottom: 12px;
+    margin-bottom: 30px;
+    color: #222;
 }
 
 p {
@@ -74,6 +76,10 @@ p {
 a {
     text-decoration: none;
     color: #0070ff;
+}
+
+li {
+    margin-bottom: 5px;
 }
 
 .underline-from-center {
@@ -124,7 +130,8 @@ a {
     text-transform: uppercase;
     letter-spacing: 3.12px;
     font-weight: 600;
-    margin: 15px 0 5px;
+    margin: 15px 0 0;
+    color: #222;
 }
 
 /* ------------------ */
@@ -166,6 +173,7 @@ header .text-wrapper {
 header .subtitle {
     margin: 10px 0;
     font-weight: normal;
+    color: #fff;
 }
 
 .image-wrapper {
@@ -215,13 +223,22 @@ header .subtitle {
     background-color: #f0ebeb;
 }
 
+aside h2 {
+    margin-bottom: 20px;
+}
+
 .personal-info-item,
 .history-item {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .company-name {
-    margin-bottom: 5px;
+    margin: 0 0 15px;
+    color: #777;
+}
+
+.education-heading {
+    margin-top: 80px;
 }
 
 /* ------------------ */
