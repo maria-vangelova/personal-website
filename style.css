@@ -232,6 +232,19 @@ aside h2 {
     margin-bottom: 40px;
 }
 
+.job-skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.job-skills > * {
+    flex: 1 1 100%;
+}
+
+.job-skills ul {
+    margin-bottom: 15px;
+}
+
 .company-name {
     margin: 0 0 15px;
     color: #777;
@@ -309,4 +322,9 @@ footer {
             -ms-flex-order: 1;
                 order: 1;
     }
+
+    .job-skills ul {
+        flex-basis: 50%;
+    }
+    
 }
